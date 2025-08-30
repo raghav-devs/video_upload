@@ -1,5 +1,5 @@
 from flask import Flask, request
-from video_utils.upload import upload_video
+from video_utils import upload_video
 import os
 
 app = Flask(__name__)
